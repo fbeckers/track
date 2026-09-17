@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-This tool extracts training log entries from a Calendar in Apple's Calendar app and aggregates them into per-sport, per-discipline statistics.
+This tool extracts training log entries from a calendar in Apple's Calendar app and aggregates them into per-sport, per-discipline statistics.
 
 The pipeline has three steps:
 1. Apple Shortcuts reads training log entries from a calendar and writes them to a TXT file
@@ -18,8 +18,9 @@ The pipeline has three steps:
 ## Usage
 
 ```sh
-make run    # run full pipeline and print aggregated stats
-make clean  # remove generated data directory
+make run     # run full pipeline and print aggregated stats
+make clean   # remove generated data directory
+make refresh # remove generated data directory, run full pipeline and print aggregated stats
 ```
 
 ## Log format

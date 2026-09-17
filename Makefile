@@ -3,7 +3,7 @@ DATA_DIR := data
 TXT := $(DATA_DIR)/training_calendar.txt
 SQL := training_calendar.sql
 
-.PHONY: all run clean
+.PHONY: all run clean refresh
 
 all: run
 
@@ -18,3 +18,7 @@ run: $(TXT) $(SQL)
 
 clean:
 	rm -rf "$(DATA_DIR)"
+
+refresh:
+	$(MAKE) clean
+	$(MAKE) run
