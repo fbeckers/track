@@ -1,6 +1,7 @@
 # TraCk
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Test Status](https://github.com/fbeckers/track/actions/workflows/basic_test.yml/badge.svg)](https://github.com/fbeckers/track/actions/workflows/basic_test.yml)
 
 TraCk extracts training log entries from a calendar in Apple's Calendar app and aggregates them into per-sport, per-discipline statistics.
 
