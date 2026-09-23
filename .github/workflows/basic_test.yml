@@ -1,7 +1,7 @@
-name: Training Calendar Test
+name: Basic Test
 on: [push]
 jobs:
-    run-training-calendar:
+    run:
         runs-on: ubuntu-latest
         steps:
             - name: Checkout repository
